@@ -1,3 +1,12 @@
+SPAZ-API Specific
+=================
+You will need CouchDB and Memcache and http://pecl.php.net/memcache
+
+Need a Couch?
+=============
+
+If you need a couch just email me at david@echolibre.com and I'll try and sort you out with a developer's couch database for the spaz-api.
+
 Requirements
 ===========================
 APC: Required for caching, specifically for From_Database_Error::code, ::msg

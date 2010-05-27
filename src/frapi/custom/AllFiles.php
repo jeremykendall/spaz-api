@@ -1,9 +1,21 @@
 <?php
 
 // Use the constant CUSTOM_MODEL to access the custom model directory
-// IE: require CUSTOM_MODEL . DIRECTORY_SEPARATOR . 'ModelName.php';
-// Or add an autolaoder if you are brave.
+define ('COUCH_DB', CUSTOM_MODEL . DIRECTORY_SEPARATOR . 'CouchDB');
 
-// Frapi comes with Armchair by default. You can use it or decide to remove it.
-// You can find armchair at: git://github.com/till/armchair.git
-require CUSTOM_MODEL . DIRECTORY_SEPARATOR . 'ArmChair' . DIRECTORY_SEPARATOR . 'ArmChair.php';
+require CUSTOM_MODEL . DIRECTORY_SEPARATOR . 'CouchDB.php';
+require COUCH_DB . DIRECTORY_SEPARATOR . 'Request.php';
+require COUCH_DB . DIRECTORY_SEPARATOR . 'Response.php';
+
+require CUSTOM_MODEL. DIRECTORY_SEPARATOR . 'MyThumbnailsDb.php';
+require CUSTOM_MODEL. DIRECTORY_SEPARATOR . 'Thumbnails.php';
+require CUSTOM_MODEL . '/Webthumb/Bluga/PEAR2/Autoload.php';
+require CUSTOM_MODEL . '/Webthumb/Bluga/Autoload.php';
+require CUSTOM_MODEL . '/Spaz/Thumb.php';
+require CUSTOM_MODEL . '/Spaz/Urltitle.php';
+require CUSTOM_MODEL . '/Spaz/Urlinfo.php';
+require CUSTOM_MODEL . '/Frapi/Limit.php';
+
+require CUSTOM_MODEL . '/AppSTW.php';
+
+require dirname(__FILE__) . DIRECTORY_SEPARATOR.'helpers.php';
