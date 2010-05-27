@@ -1,3 +1,5 @@
-This is the Frapi public repository
+This is the Spaz-api repository
 
-See http://getfrapi.com for more information.
+Check out http://github.com/davidcoallier/spaz-api/blob/master/src/frapi/README and http://github.com/frapi/frapi/wikis on how to setup this API. 
+
+You will also need a CouchDB database so if you need one, we have one for developers. Just email me at david at echolibre [dot] com or send me a message on github :)
